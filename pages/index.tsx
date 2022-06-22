@@ -15,7 +15,7 @@ const Home: NextPage = (props: any) => {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>{data.name}</h1>
+        <h1 className={styles.title}>New {data.name}</h1>
 
         <p className={styles.description}>
           Get started by editing{" "}
